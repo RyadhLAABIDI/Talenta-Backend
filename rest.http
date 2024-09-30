@@ -1,0 +1,40 @@
+GET http://localhost:5002
+
+
+
+###Login Route
+POST  http://localhost:5002/auth/login 
+content-type: application/json
+
+{
+  
+  "email": "mikhmikh@esprit.tn",
+  "password": "12345678"
+  
+  
+}
+
+####Register Route
+POST  http://localhost:5002/auth/register
+Content-Type: application/json
+
+{
+  
+  "email": "ryadhlaabidi@esprit.tn",
+  "password": "12345678",
+  "role": "admin"
+  
+}
+
+###Logout Route
+   http://localhost:5002/auth/logout
+   
+
+###banne Route
+   POST http://localhost:5002/admin/banUser/id
+   Content-Type: application/json
+   {
+  
+  "6560982a04ae6a8416990abb"
+   }
+
